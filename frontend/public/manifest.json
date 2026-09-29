@@ -1,0 +1,19 @@
+{
+  "name": "ST Seva Portal - Jharkhand Tribal Welfare",
+  "short_name": "ST Seva",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#005696",
+  "orientation": "portrait-primary",
+  "description": "National ST Scholarship Certificate Verification & DBT Disbursement System",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["government", "education", "productivity"]
+}

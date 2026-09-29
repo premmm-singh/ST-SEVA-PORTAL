@@ -1,0 +1,40 @@
+# Node dependencies
+node_modules/
+frontend/node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python virtual environment & cache
+backend/venv/
+venv/
+ENV/
+env/
+__pycache__/
+*/__pycache__/
+*/**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*/.pytest_cache/
+
+# Databases & local storage
+*.db
+*.sqlite
+*.sqlite3
+backend/st_seva.db
+backend/chroma_db/
+backend/storage/
+backend/backups/
+
+# Environment files & secrets
+.env
+.env.*
+!.env.example
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

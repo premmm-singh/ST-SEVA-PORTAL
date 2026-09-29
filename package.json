@@ -1,0 +1,14 @@
+{
+  "name": "st-seva-portal",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node start.js",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "cd backend && venv\\Scripts\\python.exe -m uvicorn app.main:app --reload --port 8000",
+    "build": "npm --prefix frontend run build"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.9.0"
+  }
+}
